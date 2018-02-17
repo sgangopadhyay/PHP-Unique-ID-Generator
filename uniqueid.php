@@ -60,11 +60,7 @@
         echo "<script>alert('ERROR : Unique ID Generation Failed');</script>";
       }
       mysqli_close($connection);
-    }
-    // define("IP","localhost");
-    // define("USERNAME","root");
-    // define("PASSWORD","suman");
-    // define("DBNAME","php_mysqli");
+    }    
     $connection = mysqli_connect(IP, USERNAME, PASSWORD, DBNAME);
     $sql_read = "SELECT * FROM unique_id";
     $result = mysqli_query($connection, $sql_read);
