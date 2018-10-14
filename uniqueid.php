@@ -1,3 +1,11 @@
+    <!-- Unique ID Generator in PHP
+    Program : PHP program to generate unique ID based on YEAR, MONTH and DATE
+    Programmmed By : Suman Gangopadhyay
+    Date : 20-July-2015
+    Database : php_mysqli
+    Table : unique_id
+    Caveats : Please create a table of id(int)AUTO INCREMENT, unique_id(VARCHAR(11)), timestamp(timestamp) 
+    Copyright © 2015 Suman Gangopadhyay  -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,13 +24,6 @@
     </style>
   </head>
   <body>
-    <!-- Unique ID Generator in PHP
-    Program : PHP program to generate unique ID based on YEAR, MONTH and DATE
-    Programmmed By : Suman Gangopadhyay
-    Date : 20-July-2015
-    Database : php_mysqli
-    Table : unique_id
-    Caveats : Please create a table of id(int)AUTO INCREMENT, unique_id(VARCHAR(11)), timestamp(timestamp) -->
     <header>Unique ID Generator in PHP</header>
     <form action="#" method="post">
       <input type="submit" name="submit" value="Generate Unique ID">
@@ -34,6 +35,7 @@
     //Database : php_mysqli
     //Table : unique_id
     //Caveats : Please create a table of id(int)AUTO INCREMENT, unique_id(VARCHAR(11)), timestamp(timestamp)
+    // Copyright © 2018 Suman Gangopadhyay
     define("IP","localhost");
     define("USERNAME","root");
     define("PASSWORD","suman");
